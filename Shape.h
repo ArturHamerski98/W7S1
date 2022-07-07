@@ -6,10 +6,11 @@ protected:
 	std::string name;
 	double area;
 	double perimeter;
-	virtual double calculateArea() = 0;
-	virtual double calculatePerimeter() = 0;
 	std::string perimeterFormula;
 	std::string AreaFormula;
+	virtual double calculateArea() = 0;
+	virtual double calculatePerimeter() = 0;
+	
 public:
 	virtual void toString() = 0;
 	double getPerimeter();

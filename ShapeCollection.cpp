@@ -12,7 +12,7 @@ void ShapeCollection::addShape(std::string typFigury)
 
 void ShapeCollection::getShapesTable()
 {
-	std::cout << "TOWJE KӣKA:\n";
+	std::cout << "TOWJE Kolkaa:\n";
 	for (auto c : circles)
 	{
 		c.toString();

@@ -41,8 +41,5 @@ int main() {
             std::cerr << "Error";
 
     }
-
-    
-
     return 0;
 }
